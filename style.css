@@ -1,0 +1,126 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Resume Container */
+.resume-container {
+    max-width: 800px;
+    background: #fff;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+}
+
+header h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+header p {
+    font-size: 18px;
+    color: #777;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.contact-info i {
+    color: #007bff;
+    margin-right: 8px;
+}
+
+/* Section */
+.section {
+    margin: 20px 0;
+}
+
+.section h2 {
+    font-size: 22px;
+    color: #333;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+}
+
+/* Skills */
+.skills {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    background: #88bbb2;
+    color: #fff;
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Projects */
+.project {
+    background: #f9f9f9;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    color: #4f99e9;
+    margin-bottom: 5px;
+}
+
+/* Achievements & Certifications */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 5px 0;
+}
+
+ul li a {
+    color: #6f7f90;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .resume-container {
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    .skills li {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+
+    .project h3 {
+        font-size: 18px;
+    }
+}
